@@ -1,0 +1,11 @@
+$("#music").click(function(){
+		if($(this).attr("class")=="play"){
+			$(this).removeClass().addClass("pause");
+			$("#myMusic")[0].play();
+			$(".audio").addClass("Rot");
+		}else if($(this).attr("class")=="pause"){
+			$(this).removeClass().addClass("play");
+			$("#myMusic")[0].pause();
+			$(".audio").removeClass("Rot");
+		}
+	})

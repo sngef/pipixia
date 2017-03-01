@@ -1,0 +1,287 @@
+.swiper-wrapper .swiper-slide .tuone {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.swiper-wrapper .swiper-slide .tutwo {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.swiper-wrapper .swiper-slide .tuthree {
+    position: absolute;
+    top: 0%;
+    width: 60%;
+    height: 60%;
+}
+
+.swiper-container .m {
+    position: relative;
+    z-index: 999;
+}
+
+.swiper-container .m img {
+    position: absolute;
+    right: 1.096rem;
+    top: 0.864rem;
+    animation: myfirst 2s infinite linear;
+    -webkit-animation: myfirst 2s infinite linear;
+}
+
+.swiper-wrapper .swiper-slide .element-box-contents {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper .sjdq {
+    width: 10.896rem;
+    height: 4.752rem;
+    margin: 1.056rem 0 0 0.672rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.swiper-wrapper .sjdq .sjdqnl {
+    font-size: 0.960rem;
+    color: #fff;
+}
+
+.swiper-wrapper .sjdq .ezsgwt {
+    font-size: 0.576rem;
+    color: yellow;
+}
+
+.swiper-wrapper .swiper-slide .tufive {
+    width: 80%;
+    margin: -2.8rem 0 0 -10.76rem;
+    position: absolute;
+    z-index: 0;
+}
+
+.swiper-wrapper .swiper-slide .tusix {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+
+
+/*m*/
+
+@-webkit-keyframes myfirst {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.swiper-wrapper .swiper-slide .clock {
+    position: absolute;
+    top: 1.248rem;
+    left: 0.912rem;
+}
+
+.swiper-wrapper .swiper-slide .paobox {
+    position: absolute;
+    top: 5.32rem;
+    left: 0.816rem;
+    width: 10.320rem;
+    font-size: 0.576rem;
+    line-height: 2em;
+    color: #676766;
+}
+
+.swiper-wrapper .swiper-slide .run {
+    position: absolute;
+    left: 0.816rem;
+    top: -0.912rem;
+}
+
+.swiper-wrapper .swiper-slide .clo {
+    position: absolute;
+    left: 0.816rem;
+    top: 1.056rem;
+}
+
+.swiper-wrapper .swiper-slide .dang {
+    position: absolute;
+    left: 0.816rem;
+    top: 0.096rem;
+}
+
+.swiper-wrapper .swiper-slide .runimg {
+    position: absolute;
+    top: 65%;
+    left: 21%;
+}
+
+.swiper-wrapper .swiper-slide .budingimg {
+    width: 11.856rem;
+    height: 10.560rem;
+    position: absolute;
+    top: 40%;
+}
+
+.swiper-wrapper .swiper-slide .phone {
+    display: block;
+    width: 3.744rem;
+    height: 3.744rem;
+    position: absolute;
+    top: 2.784rem;
+    right: 1.296rem;
+}
+
+.swiper-wrapper .swiper-slide .leftclock {
+    display: block;
+    width: 2.928rem;
+    height: 2.928rem;
+    position: absolute;
+    top: 7.344rem;
+    right: 1.680rem;
+}
+
+.swiper-wrapper .swiper-slide .item-two {
+    position: absolute;
+    width: 6.240rem;
+    height: 6.240rem;
+    bottom: 19%;
+    left: 21%;
+}
+
+.swiper-wrapper .swiper-slide .rigth-zi {
+    position: absolute;
+    top: 2.928rem;
+    right: 6.240rem;
+    width: 0.960rem;
+    font-size: 0.960rem;
+    color: #fff;
+    line-height: 0.960rem;
+}
+
+.swiper-wrapper .swiper-slide .rigth-zigai {
+    position: absolute;
+    top: 4.080rem;
+    right: 4.800rem;
+    width: 0.960rem;
+    height: 4.896rem;
+    font-size: 0.576rem;
+}
+
+.swiper-wrapper .swiper-slide .item-fivebox {
+    position: absolute;
+    top: 1.632rem;
+    left: 1.152rem;
+    width: 12.432rem;
+    height: 7.632rem;
+}
+
+.item-fivebox span {
+    color: #d34141;
+}
+
+.item-fivebox ._one {
+    position: absolute;
+    left: 0rem;
+    font-size: 1.920rem;
+}
+
+.item-fivebox ._two {
+    position: absolute;
+    top: 2.976rem;
+    left: 0rem;
+}
+
+.item-fivebox ._three {
+    position: absolute;
+    top: 3.984rem;
+    left: 0rem;
+}
+
+.item-fivebox .itemgai {
+    font-size: 1.440rem;
+}
+
+.itemimgs {
+    position: absolute;
+    top: 12.000rem;
+    width: 100%;
+}
+
+.swiper-wrapper .item-sixbox {
+    position: absolute;
+    left: 0.960rem;
+    top: 1.920rem;
+    width: 10.656rem;
+    height: 3.504rem;
+    color: #8fcce4;
+}
+
+.item-sixbox ._one {
+    position: absolute;
+    left: 0rem;
+    top: 0.048rem;
+}
+
+.item-sixbox ._two {
+    position: absolute;
+    left: 0rem;
+    top: 1.296rem;
+}
+
+.itemimgs_ {
+    width: 100%;
+    position: absolute;
+    top: 9.600rem;
+}
+
+.swiper-wrapper .swiper-slide .item-seven {
+    position: absolute;
+    right: 0.432rem;
+    width: 7.776rem;
+    height: 6.048rem;
+    color: #d34141;
+}
+
+.item-seven .item-one {
+    position: absolute;
+    right: 0rem;
+}
+
+.item-seven .item-two {
+    position: absolute;
+    right: 0rem;
+    top: 0.960rem;
+    font-size: 1.104rem;
+}
+
+.item-seven .item-twogai {
+    position: absolute;
+    right: 0rem;
+    top: 0.192rem;
+    font-size: 0.864rem;
+}
+
+.item-seven .item-three {
+    position: absolute;
+    right: 0rem;
+    top: 2.112rem;
+    font-size: 1.104rem;
+}
+
+.item-seven .item-four {
+    position: absolute;
+    right: 0rem;
+    top: 3.648rem;
+    font-size: 0.576rem;
+}
+
+.sevenimg {
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/cube.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <!--音乐图片-->
+        <div class="m">
+            <img src="images/mu.png" alt="" class="">
+        </div>
+        <audio class="mu">
+            <source src="bg_audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="swiper-wrapper">
+            <!--第一页-->
+            <div class="swiper-slide">
+                <img class="tuone" src="images/1.jpg" alt="">
+                <img class="tutwo" src="images/3.gif" alt="">
+                <img swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.2s" class="ani tuthree" src="images/2.png" alt="">
+            </div>
+
+
+
+
+
+
+
+            <!--第二页-->
+            <div class="swiper-slide">
+                <div class="element-box-contents">
+                    <div class="sjdq">
+                        <font class="sjdqnl">时间都去哪了？</font>
+                        <div>
+                            <font color="#ffffff" size="2">&nbsp; &nbsp; &nbsp; &nbsp;</font>
+                            <font size="2">
+                                <font color="#fdea02">&nbsp;</font>
+                            </font>
+                            <font class="ezsgwt">恩？！这是个问题</font>
+                        </div>
+                    </div>
+                    <img swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" class="ani tufive" src="images/4.png" alt="">
+
+                    <img class="tusix" src="images/5.gif" alt="">
+                </div>
+            </div>
+            <!--第三页-->
+            <div class="swiper-slide">
+                <img class="tuone" src="images/1.jpg" alt="">
+                <img swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" class="ani clock" src="images/8.png" alt="">
+
+                <div swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s" class="ani paobox">
+                    <span class="run">不停的奔跑</span>
+                    <span class="dang">当跑到十字路口，静下心来想想</span>
+                    <span class="clo">时间都去哪了？</span>
+                </div>
+                <div class="budingimg">
+                    <img swiper-animate-effect="pulse" swiper-animate-duration="1.5s" class="ani buding" src="images/9.png" alt="">
+                </div>
+                <img swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" src="images/10.png" alt="" class="ani runimg">
+
+                <img swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" src="images/7.png" alt="" class="ani phone">
+                <img swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" src="images/6.png" alt="" class="ani leftclock">
+            </div>
+            <!--第四页-->
+            <div class="swiper-slide">
+                <img class="tuone" src="images/12.jpg" alt="">
+                <div class="item-two">
+                    <img swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" class="ani" src="images/touming.png" alt="">
+                </div>
+
+                <div swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" class="ani rigth-zi">
+                    <span>追赶</span>
+                </div>
+                <div swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" class="ani rigth-zigai">
+                    <span>时间的人</span>
+                </div>
+            </div>
+            <!--第五页-->
+            <div class="swiper-slide">
+                <img class="tuone" src="images/16.jpg" alt="">
+                <div swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" class="ani item-fivebox">
+                    <span class="item _one">What？</span>
+                    <span class="item _two">你还在开会？</span>
+                    <span class="item _three">还有大量的<span class="itemgai">文案</span><span>要做？</span></span>
+                </div>
+                <img swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" src="images/15.png" alt="" class="ani itemimgs">
+            </div>
+            <!--第六页-->
+            <div class="swiper-slide">
+                <img class="tuone" src="images/16.jpg" alt="">
+                <div swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" class="ani item-sixbox">
+                    <span class="_one">放下手里的工作吧</span>
+                    <span class="_two">暂离一下......</span>
+                </div>
+                <img swiper-animate-effect="zoomInUp" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" src="images/11.png" alt="" class="ani itemimgs_">
+            </div>
+            <!--第七页-->
+            <div class="swiper-slide">
+                <img class="tuone" src="images/19.jpg" alt="">
+                <div swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" class="ani item-seven">
+                    <span class="item-one">一场</span>
+                    <span class="item-two">说走就走<span class="item-twogai">的</span></span>
+                    <span class="item-three">旅行</span>
+                    <span class="item-four">A go to travel</span>
+                </div>
+                <img swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" src="images/21.png" alt="" class="ani sevenimg">
+            </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-pagination"></div>-->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/init.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            scrollbar: '.swiper-scrollbar',
+            scrollbarHide: false,
+            effect: 'fade',
+            // pagination: '.swiper-pagination',
+            paginationClickable: true,
+            direction: 'vertical',
+            loop: true,
+
+            onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素 
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+
+            onSlideChangeEnd: function(swiper) {
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            }
+
+        })
+    </script>
+</body>
+
+</html>
